@@ -21,9 +21,6 @@ void hclient()
    sock->Send(mess);  
         
    //receive object from the server
-   //TMonitor *mon2 = new TMonitor;
-   //mon2->Add(s2);
-
    while(1){
        TMessage *mess2;
        TSocket  *sock;
