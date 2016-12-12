@@ -31,6 +31,7 @@ void hclient()
        if (mess2->What() == kMESS_OBJECT){
           TObject* m2= mess2->ReadObject(mess2->GetClass());
           m2->Print();
+          printf("transfer objects to the client\n");
       }
       break;
    }
